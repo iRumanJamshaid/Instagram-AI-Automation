@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Environment files (will be passed at runtime)
+.env
+env.example
+
+# Dependencies (will be installed in container)
+node_modules
+
+# Documentation
+README.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+

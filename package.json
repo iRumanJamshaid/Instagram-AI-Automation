@@ -1,0 +1,30 @@
+{
+  "name": "instagram-follow-automation-service",
+  "version": "1.1.0",
+  "description": "Enterprise-grade Node.js microservice for automating Instagram follow actions via n8n with session persistence, cooldown, and health monitoring",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "instagram",
+    "automation",
+    "follow",
+    "n8n",
+    "playwright",
+    "microservice"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.48.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+
